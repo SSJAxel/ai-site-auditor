@@ -1,0 +1,16 @@
+{
+  "name": "ai-site-auditor-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "chrome-launcher": "^1.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lighthouse": "^13.4.1"
+  }
+}
